@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+venv/
+.env
+
+# Model artifacts (regenerate by running the notebook)
+models/*.h5
+models/*.keras
+models/*.pkl
+
+# OS
+.DS_Store
+
+# Streamlit
+app/.streamlit/secrets.toml
